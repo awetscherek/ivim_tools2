@@ -1,7 +1,7 @@
 
 function S = generic_model_laminar(x, b, T, betta)
 
-D = abs(x(1)); % mm²/s
+D = abs(x(1)); % 10^-3 mm²/s
 f = abs(x(2));
 l = abs(x(3)) * ones(size(b)); % mm
 v = abs(x(4)) * ones(size(b)); % mm/s
